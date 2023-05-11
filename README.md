@@ -5,3 +5,4 @@
 # Now I need to change my target column into numerical values, so I use method "get_dummies" """y = pd.get_dummies(y, drop_first=True)"""
 # Next i can import "train_test_split" and get "train" and "test" set and check "shape" "X_train.shape, X_test.shape"
 # Then i import important libraries "tensorflow" and "keras" and create my "model" using "keras.Sequential"
+# The shape of my layer is "input_dim=60" and first layer gonna have (60) neurons and standard "activation" "relu"
