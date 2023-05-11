@@ -6,3 +6,4 @@
 # Next i can import "train_test_split" and get "train" and "test" set and check "shape" "X_train.shape, X_test.shape"
 # Then i import important libraries "tensorflow" and "keras" and create my "model" using "keras.Sequential"
 # The shape of my layer is "input_dim=60" and first layer gonna have (60) neurons and standard "activation" "relu"
+# Then I have 2 hidden layers, and output layer with "activation='sigmoid'" 
