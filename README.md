@@ -8,3 +8,4 @@
 # The shape of my layer is "input_dim=60" and first layer gonna have (60) neurons and standard "activation" "relu"
 # Then I have 2 hidden layers, and output layer with "activation='sigmoid'" 
 # I "compile" my model with "loss" as "binary_crossentropy", "optimizer" as "adam" and "metrics" "accuracy"
+# Next i "fit" my model with "X_train and y_train", set "epochs" at 100 and "batch_size" at 8 so my "gradient descent"
