@@ -14,3 +14,4 @@
 # Next I import "confusion_matrix" and "classification_report" and I print it "print(classification_report(y_test, y_pred))"
 # Now I will test my model with "Dropout" method, so after every layer it will drop half of neurons to prevent "overtraining"
 # My first layer have shape "input_dim=60" 60 neurons and "ctivation relu", then i drop half of neurons "keras.layers.Dropout(0.5)"
+# I create also 2 hidden layers and after every of it i drop half of neurons 
