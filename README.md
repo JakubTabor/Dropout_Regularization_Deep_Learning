@@ -12,3 +12,4 @@
 # Then I "evaluate" my model with "X_test and y_test" and I prepare "y_pred" "model.predict(X_test).reshape(-1)" with reshape to 1 dimension
 # I "round" my "y_pred" "np.round(y_pred)", "print" first 10 predictions and compare with my "y_test"
 # Next I import "confusion_matrix" and "classification_report" and I print it "print(classification_report(y_test, y_pred))"
+# Now I will test my model with "Dropout" method, so after every layer it will drop half of neurons to prevent "overtraining"
