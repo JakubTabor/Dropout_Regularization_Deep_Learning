@@ -13,3 +13,4 @@
 # I "round" my "y_pred" "np.round(y_pred)", "print" first 10 predictions and compare with my "y_test"
 # Next I import "confusion_matrix" and "classification_report" and I print it "print(classification_report(y_test, y_pred))"
 # Now I will test my model with "Dropout" method, so after every layer it will drop half of neurons to prevent "overtraining"
+# My first layer have shape "input_dim=60" 60 neurons and "ctivation relu", then i drop half of neurons "keras.layers.Dropout(0.5)"
