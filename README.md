@@ -18,3 +18,4 @@
 # Finally i create my "output layer" with 1 neuron and "activation sigmoid"
 # I compile my model with this same metrics as from model 1 """loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']"""
 # And I "fit" with also this same metrics as from model 1 """(X_train, y_train, epochs=100, batch_size=8)"""
+# I "evaluate model" "model_2.evaluate(X_test, y_test)" and I get better accuracy than in my first model 
