@@ -7,3 +7,4 @@
 # Then i import important libraries "tensorflow" and "keras" and create my "model" using "keras.Sequential"
 # The shape of my layer is "input_dim=60" and first layer gonna have (60) neurons and standard "activation" "relu"
 # Then I have 2 hidden layers, and output layer with "activation='sigmoid'" 
+# I "compile" my model with "loss" as "binary_crossentropy", "optimizer" as "adam" and "metrics" "accuracy"
