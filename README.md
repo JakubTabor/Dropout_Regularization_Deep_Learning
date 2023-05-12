@@ -16,3 +16,4 @@
 # My first layer have shape "input_dim=60" 60 neurons and "ctivation relu", then i drop half of neurons "keras.layers.Dropout(0.5)"
 # I create also 2 hidden layers and after every of it i drop half of neurons 
 # Finally i create my "output layer" with 1 neuron and "activation sigmoid"
+# I compile my model with this same metrics as from model 1 """loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']"""
